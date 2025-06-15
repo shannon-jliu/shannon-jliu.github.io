@@ -4,7 +4,7 @@ import githubIcon from '../assets/github-icon.svg'
 import youtubeIcon from '../assets/youtube-icon.svg'
 
 export const Footer = () => {
-    const resumeFile = "../assets/Shannon Liu Resume Jun 2025.pdf";
+    const resumeFile = "/Shannon Liu Resume.pdf";
     return (
         <footer className="footer" id="footer">
             <Container>
