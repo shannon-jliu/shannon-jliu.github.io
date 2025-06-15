@@ -24,7 +24,7 @@ export const Projects = () => {
         title: "Portfolio Website",
         description:
           "Documenting experiences and projects created throughout my career using JavaScript, React.js, HTML, CSS.",
-        link: "https://github.com/shannon-jliu/shannon-jliu.github.io",
+        link: "https://github.com/shannon-jliu/portfolio",
         imgUrl: portfolioImg,
       }
   ];
