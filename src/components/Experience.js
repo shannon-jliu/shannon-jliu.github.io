@@ -71,25 +71,32 @@ export const Experience = () => {
                     <h2 className="section-title">Experience</h2>
                     <VerticalTimeline className="vertical-timeline">
                         {experiences.map((experience) => (
-                            <VerticalTimelineElement className="vertical-timeline-element"
-                                key={experience.id}
-                                date={experience.date}
-                                dateClassName="date"
-                                iconStyle={{ background: `url(${experience.icon}) center/cover` }}
-                                iconClassName="vertical-timeline-element-icon"
-                                >
-                                <h3 className="vertical-timeline-element-title">{experience.position}</h3>
-                                <h5 className="vertical-timeline-element-subtitle">{experience.location}</h5>
-                                <ReactMarkdown
-                                    components={{
-                                        p: ({node, ...props}) => <p className="vertical-timeline-element-description" {...props} />,
-                                        a: ({node, ...props}) => <a target="_blank" rel="noopener noreferrer" {...props} />
-                                    }}
-                                    >
-                                    {experience.description}
-                                </ReactMarkdown>
-                                <p className="vertical-timeline-element-skills">{experience.skills}</p>
-                            </VerticalTimelineElement>
+                            <VerticalTimelineElement
+                            key={experience.id}
+                            date={experience.date}
+                            dateClassName="date"
+                            iconStyle={{ background: `url(${experience.icon})`, backgroundSize: "cover", border: "1px solid ", boxShadow: "0 0 0 5px #7aa8f9" }}
+                            iconClassName="vertical-timeline-element-icon"
+                            className="vertical-timeline-element"
+                          >
+                            <div className="experience-box">
+                              <h3 className="vertical-timeline-element-title">{experience.position}</h3>
+                              <h5 className="vertical-timeline-element-subtitle">{experience.location}</h5>
+                              <ReactMarkdown
+                                components={{
+                                  p: ({ node, ...props }) => (
+                                    <p className="vertical-timeline-element-description" {...props} />
+                                  ),
+                                  a: ({ node, ...props }) => (
+                                    <a target="_blank" rel="noopener noreferrer" {...props} />
+                                  ),
+                                }}
+                              >
+                                {experience.description}
+                              </ReactMarkdown>
+                              <p className="vertical-timeline-element-skills">{experience.skills}</p>
+                            </div>
+                          </VerticalTimelineElement>
                         ))}
                     </VerticalTimeline>
                 </div>
