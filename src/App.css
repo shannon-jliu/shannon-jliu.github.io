@@ -477,6 +477,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 500px;
   border-radius: 50%;
   border: 4px solid #7aa8f9;
+  box-shadow: 0 4px 20px rgba(89, 162, 241, 0.2);
   animation: updown 7s linear infinite;
   transition: all 200ms linear
 }
@@ -566,6 +567,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   box-shadow: 0 4px 20px rgba(89, 162, 241, 0.2);
   transition: transform 0.2s ease;
   color: white;
+  border: 4px solid #7aa8f9;
 }
 
 .project-card:hover {
