@@ -17,45 +17,47 @@ export const Banner = () => {
     
     return (
         <section className="banner" id="home">
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
-                        <h1>{"hi, i'm shannon\n"}<br/></h1>
-                        <h2>&#62; <span className="wrap"><ReactTyped
-                            strings={characteristics}
-                            typeSpeed={100}
-                            loop
-                            backSpeed={75}
-                            cursorChar="|"
-                            showCursor={true}/>
-                            </span></h2>
-                        <br/>
-                        <h3>feel free to browse!</h3>
-                        <div class="button-container">
-                            <button onClick={scrollToAbout}>About</button>
-                            <button onClick={scrollToFooter}>Let's connect!</button>
-                        </div>
-                        <div id="about"></div>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={bannerIcon} alt=""/>
-                    </Col>
-                </Row>
+            <Container fluid className="banner-container">
+                <div className="banner-inner">
+                    <Row className="align-items-center">
+                        <Col xs={12} md={6}>
+                            <h1>{"hi, i'm shannon\n"}<br/></h1>
+                            <h2>&#62; <span className="wrap"><ReactTyped
+                                strings={characteristics}
+                                typeSpeed={100}
+                                loop
+                                backSpeed={75}
+                                cursorChar="|"
+                                showCursor={true}/>
+                                </span></h2>
+                            <br/>
+                            <h3>feel free to browse!</h3>
+                            <div class="button-container">
+                                <button onClick={scrollToAbout}>About</button>
+                                <button onClick={scrollToFooter}>Let's connect!</button>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={6}>
+                            <img src={bannerIcon} alt=""/>
+                        </Col>
+                    </Row>
+                </div>
             </Container>
-            <section >
-                <h2 class="about">About</h2>
-                <h4>
-                    I'm a computer science student at Cornell Engineering curious about all things tech, from robotics and AI to cybersecurity. 
-                    I enjoy building software that solves real problems and makes a difference.
-                    {/* I'm a junior studying computer science at Cornell University's College of Engineering.
-                    <br></br><br></br>
-                    I'm passionate about creating technological innovations to improve the lives of humans
-                    by applying skills, knowledge, and collaboration to research and impactful projects. */}
-                </h4>
-                <h5>
-                    Aside from programming and learning technical skills, I enjoy building 3D puzzles, 
-                    photography and videography, flying my drone, lifting weights, and any adventurous activites- rock climbing, hiking, skiing, kayaking, and traveling.
-                </h5>
+            <div id="about"></div>
+            <section>
+                <div className="about-container">
+                    <h2 class="about">About</h2>
+                    <h4>
+                        I'm a computer science student at Cornell Engineering curious about all things tech, from robotics and AI to cybersecurity. 
+                        I enjoy building software that solves real problems and makes a difference.
+                    </h4>
+                    <h5>
+                        Some might say my experience is all over the place, but I see it as a reflection of my <strong>open-mindedness</strong> and <strong>eagerness to learn</strong>. I’m always looking for new challenges and opportunities to grow in the tech field. Whether it’s <strong>software engineering</strong>, <strong>machine learning</strong>, <strong>security</strong>, <strong>cloud,</strong> or <strong>robotics</strong>, I’m passionate about building innovative solutions that make a real impact :D.
+                    </h5>
+                    <h5>
+                        Beyond programming and learning technical skills, I enjoy building 3D puzzles, photography and videography, flying my drone, lifting weights, and just about any adventure- rock climbing, hiking, skiing, kayaking, and traveling! 
+                    </h5>
+                </div>
             </section>
         </section>
     )
