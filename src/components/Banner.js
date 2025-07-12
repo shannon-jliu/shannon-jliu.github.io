@@ -2,6 +2,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import {useState, useEffect} from "react";
 import {ReactTyped} from "react-typed";
 import bannerIcon from '../assets/banner-icon.png';
+import pierImg from '../assets/pier.JPG';
 import {Link, animateScroll as scroll} from "react-scroll";
 
 export const Banner = () => {
@@ -38,7 +39,7 @@ export const Banner = () => {
                             </div>
                         </Col>
                         <Col xs={12} md={6}>
-                            <img src={bannerIcon} alt=""/>
+                            <img src={pierImg} alt=""/>
                         </Col>
                     </Row>
                 </div>
