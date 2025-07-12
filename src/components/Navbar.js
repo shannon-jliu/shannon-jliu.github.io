@@ -41,9 +41,9 @@ export const NavBar = () => {
 
                 <div className="navbar-center">
                     <Nav className="navbar-links">
-                    <Nav.Link as={NavLink} to="/home" onClick={scrollToTop} activeClassName="active-link">Home</Nav.Link>
-                    <Nav.Link as={NavLink} to="/experience" onClick={scrollToTop} activeClassName="active-link">Experience</Nav.Link>
-                    <Nav.Link as={NavLink} to="/projects" onClick={scrollToTop} activeClassName="active-link">Projects</Nav.Link>
+                        <Nav.Link as={NavLink} to="/home" onClick={scrollToTop} className="nav-link">Home</Nav.Link>
+                        <Nav.Link as={NavLink} to="/experience" onClick={scrollToTop} className="nav-link">Experience</Nav.Link>
+                        <Nav.Link as={NavLink} to="/projects" onClick={scrollToTop} className="nav-link">Projects</Nav.Link>
                     </Nav>
                 </div>
 
