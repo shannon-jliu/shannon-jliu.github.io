@@ -10,7 +10,7 @@ export const Footer = () => {
             <Container>
                 <Row className="align-items-center">
                     <div className="reach-out-footer">
-                        <h3>please reach out through <b>email</b> or <b>linkedin!</b></h3>
+                        <h3>would love to connect through <b>email</b> or <b>linkedin</b>!</h3>
                     </div>
                 </Row>
                 <Row>
