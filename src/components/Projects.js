@@ -14,20 +14,22 @@ export const Projects = () => {
       link: "https://github.com/IRL-CT/badrobotsIRL",
       imgUrl: badrobotsirlImg,
       skills: "Machine Learning & Data - Python, Tensorflow, PyTorch, Scikit-learn, NumPy, Pandas, Matplotlib",
-      status: "Presented analysis. Currently training models to predict robot failure based on human reactions :)"
+      status: "Presented analysis. Currently training models to predict robot failure based on human reactions :)",
+      affiliation: "Interaction Research Lab (IRL), Cornell Tech"
     },
     {
       title: "Mini Plane System",
       description:
-        "Controlling GoPro image capture/settings, gimbal movement, and image/telemetry transmission using Python, Rust, and Raspberry Pi.",
+        "Building a system to control GoPro image capture/settings, gimbal movement, and image/telemetry transmission for an autonomous search and rescue plane.",
       link: "https://github.com/CUAir/mini-plane-system",
       imgUrl: mpsarchImg,
       skills: "Embedded Systems - Python, Rust, Raspberry Pi",
-      status: "Currently in development :D"
+      status: "Currently in development :D",
+      affiliation: "Cornell University Unmanned Air Systems (CUAir), Cornell University"
     },
     {
       title: "Dad's Kitchen",
-      description: "Building a web app to help users manage and update recipes and ingredients, and interact with a community of chefs and eaters through ratings and reviews. Inspired by my dad who loves coding and cooking XD.",
+      description: "Developing a web app to help users manage and update recipes and ingredients, and interact with a community of chefs and eaters through ratings and reviews. Inspired by my dad who loves coding and cooking XD.",
       link: "https://github.com/shannon-jliu/dadskitchen-frontend",
       imgUrl: dadskitchenImg,
       skills: "Full Stack - Java, JavaScript, React.js, HTML, CSS, PostgreSQL, Spring",
@@ -65,6 +67,7 @@ export const Projects = () => {
               </a>
               <div className="project-content">
                 <h3>{project.title}</h3>
+                <h4 className="project-affiliation"> <strong>{project.affiliation ? project.affiliation : ""}</strong></h4>
                 <h5>{project.status}</h5>
                 <p>{project.description}</p>
                 <h6>{project.skills}</h6>

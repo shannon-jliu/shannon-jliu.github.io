@@ -87,7 +87,7 @@ p.danger {
 }
 
 nav.navbar {
-  padding: 2%;
+  padding: 1%;
   position: fixed;
   width: 100%;
   top: 0;
@@ -162,10 +162,10 @@ nav.navbar .navbar-nav .nav-link {
   font-weight: 600;
   color: #ffffff !important;
   background-color: rgb(122, 168, 249);
-  font-size: 26px;
+  font-size: 24px;
   border: 4px solid rgb(122, 168, 249);
-  margin: 10px;
-  padding: 14px 60px;
+  margin: 1%;
+  padding: 12px 50px;
   transition: background-color 0.5s ease-in-out, color 0.5s ease;
   border-radius: 30px;
 }
@@ -177,8 +177,8 @@ nav.navbar .navbar-nav .nav-link:hover {
 
 @media (min-width: 1700px) {
   nav.navbar .navbar-nav .nav-link {
-    font-size: 30px;
-    padding: 14px 80px;
+    font-size: 28px;
+    padding: 14px 70px;
   }
 
   nav.navbar a.navbar-brand img {
@@ -191,7 +191,7 @@ nav.navbar .navbar-nav .nav-link:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 14px;
+  margin-top: 5px;
   gap: 12px;
 }
 
@@ -234,8 +234,8 @@ nav.navbar .navbar-nav .nav-link:hover {
 }
 
 .footer {
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding-top: 4%;
+  padding-bottom: 3%;
   text-align: center;
   background: rgb(23, 39, 39);
 }
@@ -247,8 +247,8 @@ nav.navbar .navbar-nav .nav-link:hover {
 }
 
 .social-icon-footer a {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: rgb(122, 168, 249);
   display: inline-flex;
   border-radius: 50%;
@@ -278,8 +278,8 @@ nav.navbar .navbar-nav .nav-link:hover {
 }
 
 .social-icon-footer a img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   z-index: 1;
   transition: 0.3s ease-in-out;
 }
@@ -429,7 +429,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 5px;
   width: 100%;
   background-position: top center;
-  padding-top: 200px;
+  padding-top: 11%;
   padding-bottom: 100px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -694,6 +694,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 30px;
 }
 
+.project-affiliation {
+  font-size: 0.9rem;
+  color: #cfdffc;
+}
 
 .project-content h3 {
   font-weight: bold;
