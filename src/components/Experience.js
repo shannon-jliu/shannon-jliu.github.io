@@ -17,8 +17,8 @@ export const Experience = () => {
             position: "Cybersecurity Engineering Intern",
             location: "FactSet Research Systems Inc.",
             date: "June 2025 - Present",
-            description: "Built scalable, cloud-native security solutions and enhanced developer infrastructure on the Security Automation and Analytics Team, collaborating in an Agile environment. Developed middleware to surface vulnerability data via GraphQL and deployed the OpenCTI threat intelligence platform on EKS with Kubernetes, Helm, and GitHub Actions, automating threat data ingestion across 10+ APIs to streamline operations and reduce manual effort.",
-            skills: "JavaScript, Kubernetes, Helm, PostgreSQL, GraphQL, Github Actions, Amazon Web Services, automation, CI/CD",
+            description: "Developed secure, cloud-native solutions with JavaScript, GraphQL, and Azure, delivering role-based APIs that provided risk and vulnerability data to 11 business units and 30+ departments. Built MCP tools and a Python server integrated with Anthropic Claude, enabling 40+ teams to query asset vulnerabilities and receive guided LLM-driven resolutions. Deployed a threat intelligence platform on AWS EKS with Kubernetes, Helm, and CI/CD pipelines, integrating 10+ APIs to automate threat data collection and improve security visibility.",
+            skills: "Python, JavaScript, Kubernetes, Helm, PostgreSQL, GraphQL, Github Actions, Amazon Web Services, automation, CI/CD",
             icon: factsetIcon
         },
         {
@@ -44,7 +44,7 @@ export const Experience = () => {
           position: "Academic Excellence Workshop Facilitator",
           location: "Cornell University College of Engineering",
           date: "August 2024 - Present",
-          description: "Led supplemental workshops for CS 2110 (Object-Oriented Programming and Data Structures) and MATH 1920 (Multivariable Calculus for Engineers), delivering short lectures and facilitating collaborative student learning to deepen understanding of core technical concepts, reinforce course material, and foster academic community.",
+          description: "Led 3 supplemental workshops for CS 2110 (Object-Oriented Programming and Data Structures) and MATH 1920 (Multivariable Calculus for Engineers), delivering short lectures and facilitating collaborative student learning to deepen understanding of core technical concepts, reinforce course material, and foster academic community, reaching 40+ engineering students.",
           skills: "Java, object-oriented programming, data structures, multivariable calculus, teaching, mentoring",
           icon: cornelluniversityIcon,
         },
